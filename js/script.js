@@ -26,6 +26,6 @@ const join_form = document.getElementById('join_form');
 
         if (firstname && lastname && email && role !== 'select') {
             alert('Successfully registered');
-            form.reset();
+            join_form.reset();
         }
     });
