@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: sans-serif;
+}
+header {
+    height: 50px;
+    background-color: #003135;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+header h1 {
+    width: 50px;
+}
+header h1 a {
+    width: 100%;
+    display: block;
+}
+header h1 a img {
+    width: 100%;
+    display: block;
+}
+header ul.middle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header ul.middle li {
+    list-style: none;
+}
+header ul.middle li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 15px;
+}
+header ul.right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header ul.right li {
+    list-style: none;
+}
+header ul.right li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    margin-right: 15px;
+    padding: 6px;
+    font-weight: bold;font-family: sans-serif;border-radius: 10px;
+    background-color: orange;
+}
+section.spotlight {
+    background-color: #024950;
+    padding: 60px; 
+}
+section.spotlight div.top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+section.spotlight div.top div.left {
+    width: 48%;
+    height:800px;
+}
+section.spotlight div.top div.left img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+section.spotlight div.top div.right {
+    width: 48%;
+}
+section.spotlight div.top div.right h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 50px;
+}
+section.spotlight div.top div.right p {
+    color: white;
+    text-align: justify;
+    font-size: 35px;
+    line-height: 2em;
+}
+section.spotlight div.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+section.spotlight div.bottom div.left {
+    width: 50%;
+}
+section.spotlight div.bottom div.left img {
+    width: 100%;
+    display: block;
+}
+section.spotlight div.bottom div.left h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 50px;
+}
+section.spotlight div.bottom div.left p {
+    color: white;
+    text-align: justify;
+    font-size: 35px;
+    line-height: 2em;
+}
+section.solutions {
+    background-color: #afdde5;
+    padding: 25px 60px;
+}
+section.solutions h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    font-size: 50px;
+}
+section.solutions ul {
+
+}
+section.solutions ul li {
+    list-style: none;
+    margin-bottom: 25px;
+}
+section.form {
+    background-color: #45a29e;
+    padding: 60px;
+    
+}
+section.form h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+section.form form {
+    width: 25%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+section.form form input {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #c5c6c7;
+    margin-bottom: 15px;
+
+}
+section.form form select {
+    padding: 10px;
+    border-radius: 5px;
+    width: 196px;
+    background-color: #c5c6c7;
+    height: 40px;
+}
+section.form form input#submit {
+    width: 100%;
+}
+footer {
+    padding: 25px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003135;
+}
+footer h3 {
+    color: white;
+}
+footer ul {
+    display: flex;
+}
+footer ul li {
+    list-style: none;
+    margin-right: 17px;
+}
+footer ul li a {    
+    text-decoration: none;
+    color: white;
+}
